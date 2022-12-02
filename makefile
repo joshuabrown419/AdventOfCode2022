@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -std=c++11 -fdiagnostics-color=always -g
 TARGET = ./target/
-DAY = 01
+DAY = 02
 OUTPUT_FOLDER = ./out/
 EXE_FILE = advent_of_code_day_$(DAY)
 TAR_NAME = AdventOfCode
