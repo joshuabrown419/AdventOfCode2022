@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#define DAY "day_x"
+#define DAY "day_03"
 
 void part_1(vector<string>* input) {
 
@@ -17,7 +17,7 @@ void part_2(vector<string>* input) {
 
 int main() {
     Utils::printHeader(DAY);
-    vector<string>* input = Utils::loadFile("input/day_x.txt");
+    vector<string>* input = Utils::loadFile("input/day_03.txt");
 
     Utils::startPart("Part One");
     part_1(input);

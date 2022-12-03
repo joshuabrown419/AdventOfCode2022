@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 
-#define DAY "day01"
+#define DAY "day_01"
 
 void part_1(std::vector<std::string>* input) {
     std::vector<int> elves;

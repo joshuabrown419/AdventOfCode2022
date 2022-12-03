@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 
-#define DAY "day02"
+#define DAY "day_02"
 
 /*
 A = Rock

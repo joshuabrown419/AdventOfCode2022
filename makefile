@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -std=c++11 -fdiagnostics-color=always -g
 TARGET = ./target/
-DAY = 02
+DAY = 03
 OUTPUT_FOLDER = ./out/
 EXE_FILE = advent_of_code_day_$(DAY)
 TAR_NAME = AdventOfCode
@@ -30,4 +30,4 @@ tar:
 
 clean:
 	rm -r $(TARGET)
-	rm -f $(OUTPUT_FOLDER)$(EXE_FILE)
+	rm -rf $(OUTPUT_FOLDER)
