@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++11 -fdiagnostics-color=always -g
+CFLAGS = -std=c++11 -fdiagnostics-color=always -O1
 TARGET = ./target/
 DAY = 03
 OUTPUT_FOLDER = ./out/
