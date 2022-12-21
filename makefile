@@ -1,7 +1,7 @@
 CC = g++
-CFLAGS = -std=c++11 -fdiagnostics-color=always -O1
+CFLAGS = -std=c++20 -fdiagnostics-color=always -g
 TARGET = ./target/
-DAY = 03
+DAY = 00
 OUTPUT_FOLDER = ./out/
 EXE_FILE = advent_of_code_day_$(DAY)
 TAR_NAME = AdventOfCode
@@ -31,3 +31,7 @@ tar:
 clean:
 	rm -r $(TARGET)
 	rm -rf $(OUTPUT_FOLDER)
+
+template:
+	cat ./src/atemplate.cpp >> ./src/day_$(DAY).cpp
+	touch ./input/day_$(DAY).txt

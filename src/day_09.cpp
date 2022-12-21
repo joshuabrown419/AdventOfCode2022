@@ -8,14 +8,7 @@ using namespace std;
 #define DAY "day_x"
 
 void part_1(vector<string>* input) {
-    int hx = 0, hy = 0, tx = 0, ty = 0;
 
-    for(string line : *input) {
-        char direction = line.at(0);
-        int count = atoi(line.substr(2).c_str());
-
-        
-    }
 }
 
 void part_2(vector<string>* input) {
